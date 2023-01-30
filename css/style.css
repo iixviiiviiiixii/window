@@ -72,9 +72,13 @@ img {
     font-size: 20px;
     text-transform: uppercase;
     font-weight: 600;
-    margin-top: 20px;
+    margin: 20px;
 }
 
+.city {
+    font-size: 36px;
+    font-weight: 600;
+}
 
 .h1 {
     line-height: 1.5em;
@@ -304,12 +308,16 @@ img {
 @media screen and (max-width: 768px) {
     .intro__text {
         font-size: 30px;
-        margin-top: 30px;
+        margin: 30px;
     }
 
     .time {
         font-size: 16px;
         margin-top: 20px;
+    }
+
+    .city {
+        font-size: 30px;
     }
 
     .img {
@@ -356,7 +364,11 @@ img {
 
     .time {
         font-size: 11px;
-        margin-top: 10px;
+        margin: 10px;
+    }
+
+    .city {
+        font-size: 18px;
     }
 
     .img {
